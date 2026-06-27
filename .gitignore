@@ -1,0 +1,109 @@
+# =========================
+# SISTEMA OPERATIVO
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+*~
+.directory
+.Trash-*
+
+# =========================
+# ARCHIVOS DE ENTORNO (NO SUBIR)
+# =========================
+.env
+.vagrant
+Vagrantfile
+
+# =========================
+# DEPENDENCIAS
+# =========================
+vendor/
+node_modules/
+venv/
+
+# =========================
+# ARCHIVOS GENERADOS / BUILDS
+# =========================
+build/
+dist/
+*.log
+*.zip
+
+# =========================
+# ARCHIVOS TEMPORALES DEL PROYECTO
+# =========================
+/writable/cache/*
+!/writable/cache/index.html
+
+/writable/logs/*
+!/writable/logs/index.html
+
+/writable/session/*
+!/writable/session/index.html
+
+/writable/uploads/*
+!/writable/uploads/index.html
+
+/writable/debugbar/*
+!/writable/debugbar/index.html
+
+php_errors.log
+
+# =========================
+# TESTING
+# =========================
+/tests/coverage*
+/phpunit
+/phpunit.xml
+
+# =========================
+# DOCUMENTACIÓN / BUILDS
+# =========================
+/user_guide_src/build/*
+/user_guide_src/cilexer/build/*
+/user_guide_src/cilexer/dist/*
+/user_guide_src/cilexer/pycilexer.egg-info/*
+
+# =========================
+# IDE / EDITORES
+# =========================
+.vscode/
+.idea/
+*.iml
+
+# NetBeans
+/nbproject/
+/nbbuild/
+/nbdist/
+/nbactions.xml
+/nb-configuration.xml
+/.nb-gradle/
+
+# Sublime
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+# =========================
+# OTROS
+# =========================
+_modules/
+.php-version
+/api/
+.results/
+
+# =========================
+# SEGURIDAD
+# =========================
+# NO subir archivos sensibles, configuraciones privadas o datos grandes innecesarios
+``
